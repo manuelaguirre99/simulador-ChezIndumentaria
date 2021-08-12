@@ -1,0 +1,110 @@
+ 
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+    color: white;
+    background-color: white;
+}
+
+/*historia*/
+
+.historia{
+    background-color: #D7CCC8;
+    text-align: center;
+    height: auto;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+}
+
+.historia h2{
+    font-weight: 800;
+}
+.historia h3{
+    font-weight: 600;
+}
+
+/*iconos*/
+.iconos{
+    background-image: url(./imgs/fondo.jpg);
+    height: auto;
+    color: grey;
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    
+}
+
+/*caja de colecciones*/
+.collec{
+    text-align: center;
+    padding-top: 1rem;
+    margin: auto;
+    background-image: url(fondo.jpg);
+    color: #757575;
+}
+.cardColec{
+    padding-bottom: 10px;
+}
+
+/*caja de productos*/
+.mod2{
+    text-align: center;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color:#D7CCC8;
+}
+.cardProducto{
+    margin-bottom: 10px;
+}
+/*caja externa de sale*/
+.mod3{
+    background-color: white;
+}
+.mod9{
+    background-color: #c9c9c9;
+}
+
+/*fondo del card de sale*/
+.mod4{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-image: url(fondo.jpg);
+    background-size: 100%;
+    color: #757575;
+}
+/*footer*/
+.mod5{
+    background-color:#D7CCC8;
+    text-align: center;
+    color: #757575;
+}
+/*redes*/
+#redes {
+    background-color: #D7CCC8;
+    height: 100px;
+    padding: 10px;
+    text-align: center;
+}
+
+#redes h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    color: #757575;
+    text-align: center;
+}
+
+#redes span {
+    margin: 10px;
+}
+
+#redes span a:hover{
+    color: grey;
+}
+
+/*modals*/
+.cardModal{ 
+    color: #757575;
+    text-align: center;
+}
+

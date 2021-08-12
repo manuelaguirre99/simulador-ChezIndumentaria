@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Chez</title>
+</head>
+<body class="container-fluid">
+
+    <!-- nav menu hamburguesa -->
+    <header id="header">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+         <div class="container-fluid">
+          <a class="navbar-brand" href="#nav">
+            <img src="./imgs/logo.png" alt="logo chez" width="80">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#historia">nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#collecciones">colecciones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#productos">productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sale">contacto</a>
+            </li>
+          </ul>
+          </div>
+         </div>
+    </nav>
+</header>
+    <!-- fin nav-->
+    <!-- carousel-->
+  <main>
+    <section id="home">
+    <div id="carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="imgs/carousel 1.jpg" class="d-block w-100" alt="chez">
+        </div>
+        <div class="carousel-item">
+          <img src="imgs/carousel 2.jpg" class="d-block w-100" alt="chez">
+        </div>
+        <div class="carousel-item">
+          <img src="imgs/carousel 3.jpg" class="d-block w-100" alt="chez">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    </section>
+  
+    <!-- fin carousel-->
+
+      <!--Historia-->
+  <section id="historia">
+    <div class="container-fluid historia">
+      <div class="col-md">
+        <h2>Sobre nosotros</h2>
+        <hr>
+      </div>
+      <div class="col-md">
+        <h3>- ¿Quienes somos? -</h3>
+        <p>Somos Chez! Una firma Argentina de moda fundada en 2009</p>
+        <br>
+        <h3>- ¿Cual es nuestro objetivo? -</h3>
+        <p>Nuestra mirada apunta a crear una moda casual y a la vez elegante para crear looks fáciles de llevar tanto de día como de noche. Conjuntos de ropa para todas las edades.</p>
+        <br>
+        <h3>Lorem ipsum dolor sit.</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim expedita veritatis eos nobis inventore impedit iure commodi, voluptas, velit excepturi minima asperiores.</p>
+      </div>
+    </div>
+
+  </section>
+  <!--fin historia-->
+
+  <!--Iconos-->
+  <div class="container-fluid iconos">
+    <div class="d-flex justify-content-evenly flex-wrap">
+      <div>
+          <div>
+            <svg xmlns="http://www.w3.org/2000/svg" width="200" height="125" fill="grey" class="bi bi-truck" viewBox="0 0 16 16">
+              <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5v-7zm1.294 7.456A1.999 1.999 0 0 1 4.732 11h5.536a2.01 2.01 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456zM12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12v4zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
+            </svg>
+            </div>
+            <div>
+              <span>Envios a todo el pais!</span>
+            </div>
+      </div>
+      <div>
+          <div>
+            <svg xmlns="http://www.w3.org/2000/svg" width="200" height="125" fill="grey" class="bi bi-cash-coin" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M11 15a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm5-4a5 5 0 1 1-10 0 5 5 0 0 1 10 0z"/>
+              <path d="M9.438 11.944c.047.596.518 1.06 1.363 1.116v.44h.375v-.443c.875-.061 1.386-.529 1.386-1.207 0-.618-.39-.936-1.09-1.1l-.296-.07v-1.2c.376.043.614.248.671.532h.658c-.047-.575-.54-1.024-1.329-1.073V8.5h-.375v.45c-.747.073-1.255.522-1.255 1.158 0 .562.378.92 1.007 1.066l.248.061v1.272c-.384-.058-.639-.27-.696-.563h-.668zm1.36-1.354c-.369-.085-.569-.26-.569-.522 0-.294.216-.514.572-.578v1.1h-.003zm.432.746c.449.104.655.272.655.569 0 .339-.257.571-.709.614v-1.195l.054.012z"/>
+              <path d="M1 0a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h4.083c.058-.344.145-.678.258-1H3a2 2 0 0 0-2-2V3a2 2 0 0 0 2-2h10a2 2 0 0 0 2 2v3.528c.38.34.717.728 1 1.154V1a1 1 0 0 0-1-1H1z"/>
+              <path d="M9.998 5.083 10 5a2 2 0 1 0-3.132 1.65 5.982 5.982 0 0 1 3.13-1.567z"/>
+            </svg>
+            </div>
+            <div>
+              <span>Monto minimo de $5.000</span>
+            </div>
+      </div>
+      <div>
+          <div>
+            <svg xmlns="http://www.w3.org/2000/svg" width="200" height="125" fill="grey" class="bi bi-cart-check" viewBox="0 0 16 16">
+              <path d="M11.354 6.354a.5.5 0 0 0-.708-.708L8 8.293 6.854 7.146a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"/>
+              <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+            </svg>
+            </div>
+            <div>
+              <span>Garantia en todos nuestros productos</span>
+            </div>
+      </div>
+  </div>
+  </div>
+  <!--fin iconos-->
+  
+    <!-- colecciones-->
+  
+    <section id="collecciones">
+      <div class="mod collec">
+          <div>
+              <h2>CONOCE NUESTRAS COLECCIONES</h2>
+              <hr>
+          </div>
+          <div class="container-fluid cajaColecciones">
+            <div class="d-flex justify-content-evenly flex-wrap">
+              <div class="cardColec">
+                  <img src="./imgs/summersale.jpg" width="290px" height="400px" alt="Summer sale">
+              </div>
+              <div class="cardColec">
+                  <img src="./imgs/SALE.jpg" width="290px" height="400px" alt="SALE">
+              </div>
+              <div class="cardColec">
+                <img src="./imgs/winter collection.jpg" width="290px" height="400px" alt="Coleccion de invierno">
+              </div>
+          </div> 
+      </div>
+    </section>
+  
+  <!--fin colecciones-->
+  
+  <!--productos-->
+  
+    <section id="productos">
+      <div class="container-fluid mod2">
+        <div class="row">
+          <div class="col-12">
+            <h2>PRODUCTOS</h2>
+            <hr>
+            <br>
+          </div>
+  
+          <div class="col-md-3 cardProducto">
+            <div class="card-border-0 shadow-lg">
+              <img src="imgs/1.jpg" class="card-img-top" alt="Remera Sofie" width="600">
+              <div class="card-body">
+                <h2 class="card-title">Rem Sofie</h2>
+                <p class="card-text">Remera m.corta verde militar</p>
+                <a href="#comprar" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#remerasofie">COMPRAR</a>
+              </div>
+            </div>
+          </div>
+  
+  <!-- ventana modal 1 -->
+         
+          <div class="modal fade cardModal" id="remerasofie" tabindex="-1" aria-labelledby="remerasofie" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h3 class="modal-title" id="remerasofie">Remera Sofie</h3> 
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="imgs/1.jpg" alt="remerasofie" width="600" class="img-fluid">
+                  <h4>- $9.999</h4>
+                  <span>Remera manga corta con tela 100% algodon. <br>
+                    Disponible en color verde militar.
+                  </span>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">CERRAR</button>
+                  <button type="button" class="btn btn-primary">COMPRAR</button>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+  <!-- fin ventana modal -->
+  
+          <div class="col-md-3 cardProducto">
+            <div class="card-border-0 shadow-lg">
+              <img src="imgs/2.jpg" class="card-img-top" alt="Remera Malu" width="600">
+              <div class="card-body">
+                <h2 class="card-title">Rem Malu</h2>
+                <p class="card-text">Remera m.larga terracota</p>
+                <a href="#comprar" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#remeramalu">COMPRAR</a>
+              </div>
+            </div>
+          </div>
+        
+  <!-- ventana modal 2 -->
+  
+               <div class="modal fade cardModal" id="remeramalu" tabindex="-1" aria-labelledby="remeramalu" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h3 class="modal-title" id="remeramalu">Remera Malu</h3>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <img src="imgs/2.jpg" alt="remeramalu" width="600" class="img-fluid">
+                      <h4>- $9.999</h4>
+                      <span>Remera manga larga con tela 100% algodon. <br>
+                      Disponible en color terracota.
+                      </span>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">CERRAR</button>
+                      <button type="button" class="btn btn-primary">COMPRAR</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+  
+   <!-- fin ventana modal -->
+  
+          <div class="col-md-3 cardProducto">
+            <div class="card-border-0 shadow-lg">
+              <img src="imgs/3.jpg" class="card-img-top" alt="Top Zara" width="600">
+              <div class="card-body">
+                <h2 class="card-title">Top Zara</h2>
+                <p class="card-text">Top basico sin mangas blanco</p>
+                <a href="#comprar" class="btn btn-secondary"data-bs-toggle="modal" data-bs-target="#topzara">COMPRAR</a>
+              </div>
+            </div>
+          </div>
+           
+          <!-- ventana modal 2 -->
+           <div class="modal fade cardModal" id="topzara" tabindex="-1" aria-labelledby="topzara" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h3 class="modal-title" id="topzara">Top Zara</h3>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="imgs/3.jpg" alt="topzara" width="600" class="img-fluid">
+                  <h4>- $9.999</h4>
+                      <span>Top sin mangas de tela 100% algodon elastizado. <br>
+                      Disponible en color blanco o negro.
+                      </span>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">CERRAR</button>
+                  <button type="button" class="btn btn-primary">COMPRAR</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- fin ventana modal -->
+  
+          <div class="col-md-3 cardProducto">
+            <div class="card-border-0 shadow-lg">
+              <img src="imgs/4.jpg" class="card-img-top" alt="Top Maui" width="600">
+              <div class="card-body">
+                <h2 class="card-title">Top Maui</h2>
+                <p class="card-text">Top m.larga verde militar</p>
+                <a href="#comprar" class="btn btn-secondary"data-bs-toggle="modal" data-bs-target="#topmaui">COMPRAR</a>
+              </div>
+            </div>
+          </div>
+  
+         <!-- ventana modal 2 -->
+         <div class="modal fade cardModal" id="topmaui" tabindex="-1" aria-labelledby="topmaui" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h3 class="modal-title" id="topmaui">Top Maui</h3>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <img src="imgs/4.jpg" alt="topmaui" width="600" class="img-fluid">
+                <h4>- $9.999</h4>
+                      <span>Top manga larga de tela 100% algodon elastizado. <br>
+                      Disponible en color verde militar.
+                      </span>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">CERRAR</button>
+                <button type="button" class="btn btn-primary">COMPRAR</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- fin ventana modal -->
+        
+        </div>
+      </div>
+    </section>
+
+<!-- fin productos -->
+<!--contacto-->
+  
+    <section id="sale">
+      <div class="container-fluid mod3">
+        <div class="row">
+          <div class="col">
+            <div class="card text-center mod4">
+              <div class="card-body mod9">
+                <h2 class="card-title">CONTACTO</h2>
+                <hr>
+                <p class="card-text">Llena el formulario y unite a la comunidad Chez! </p>
+                <a href="#form" class="btn btn-secondary"data-bs-toggle="modal" data-bs-target="#form">Form</a>
+              </div>
+            </div>
+          </div>
+       </div>
+      </div>
+    </section>
+    <!-- ventana modal contacto -->
+    <div class="modal fade cardModal" id="form" tabindex="-1" aria-labelledby="form" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="form">Formulario</h3>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="column g-3 allign-content-center">
+              <div class="col">
+                <input id="gap" type="text" class="casillero" placeholder="Email" aria-label="Email">
+              </div>
+            </div>
+            <div>¿Te gustaria recibir novedades sobre nuestros productos?</div>
+            <input type="checkbox" name="acepta" value="1">
+            <br>
+            
+            <label for="Comentario">Contanos que te pareció nuestra página!</label>
+            <br>
+            <textarea name="Comentario" id="gap" cols="30" width="200px" rows="4"></textarea>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">CERRAR</button>
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">ENVIAR</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- fin ventana modal -->
+<!--fin contacto-->
+
+  
+  </main>
+ 
+ <!--footer--> 
+
+    <footer>
+      <div id="redes">
+                
+        <h2>Seguinos en redes!</h2>
+        <span>
+            <a href="https://www.instagram.com/chez.ind/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="grey" class="bi bi-instagram" viewBox="0 0 16 16">
+                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+              </svg></a>
+
+        </span>
+        <span>
+            <a href="https://twitter.com/archillect" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="grey" class="bi bi-twitter" viewBox="0 0 16 16">
+                <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+              </svg></a>
+
+        </span>
+      <br>
+      </div>
+      <div class="container-fluid mod5">
+        <div class="row">
+          <div class="col">
+            <p class="text-center">
+               <span class="d-block">Chez</span>
+                Sarmiento 1338, Merlo. Bs As.
+                <br>
+                <hr>
+                <span class="d-block">
+                  <a href="#header"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="grey" class="bi bi-arrow-up-circle" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+                  </svg></a>
+                </span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+
+</body>
+</html>
